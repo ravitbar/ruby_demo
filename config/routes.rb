@@ -53,4 +53,6 @@ RubyDemo::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  match '/help', to: 'static_pages#help'
 end
